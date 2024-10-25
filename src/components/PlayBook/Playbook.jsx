@@ -1,4 +1,10 @@
 import React from 'react';
+import IOT from "/src/assets/img/IOT.png";
+import AI from "/src/assets/img/AI.png";
+import MSP from "/src/assets/img/MSP.png";
+import PMS from "/src/assets/img/PMS.png";
+import HRMS from "/src/assets/img/HRMS.png"
+
 
 const Playbook = () => {
   return (
@@ -17,25 +23,25 @@ const Playbook = () => {
         <div className="flex justify-center items-center transform hover:scale-110 transition duration-300 ease-in-out">
           {/* Height & Width decreased for Tablet(MD) Screen & Small(SM) screen */}
           {/* Margin Bottom Addded */}
-          <img className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-32 xl:h-32 2xl:w-32 2xl:h-32 3xl:w-56 3xl:h-56 mb-8 md:mb-6 " src="src/assets/img/IOT.png" alt="IOT" />
+          <img className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-32 xl:h-32 2xl:w-32 2xl:h-32 3xl:w-56 3xl:h-56 mb-8 md:mb-6 " src={IOT} alt="IOT" />
         </div>
         <div className="flex justify-center items-center transform hover:scale-110 transition duration-300 ease-in-out">
           {/* Height & Width decreased for Tablet(MD) Screen  */}
           {/* Margin Bottom Addded */}
-          <img className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-32 xl:h-32 2xl:w-32 2xl:h-32 3xl:w-56 3xl:h-56 mb-8 md:mb-6" src="src/assets/img/AI.png" alt="AI" />
+          <img className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-32 xl:h-32 2xl:w-32 2xl:h-32 3xl:w-56 3xl:h-56 mb-8 md:mb-6" src={AI} alt="AI" />
         </div>
         <div className="flex justify-center items-center transform hover:scale-110 transition duration-300 ease-in-out">
           {/* Height & Width decreased for Tablet(MD) Screen  */}
           {/* Margin Bottom Addded */}
-          <img className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-32 xl:h-32 2xl:w-32 2xl:h-32 3xl:w-56 3xl:h-56 mb-8 md:mb-6" src="src/assets/img/MSP.png" alt="MSP" />
+          <img className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-32 xl:h-32 2xl:w-32 2xl:h-32 3xl:w-56 3xl:h-56 mb-8 md:mb-6" src={MSP} alt="MSP" />
         </div>
         <div className="flex justify-center items-center transform hover:scale-110 transition duration-300 ease-in-out">
           {/* Height & Width decreased for Tablet(MD) Screen  */}
           {/* Margin Bottom Addded */}
-          <img className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-32 xl:h-32 2xl:w-32 2xl:h-32 3xl:w-56 3xl:h-56 mb-8 md:mb-6" src="src/assets/img/PMS.png" alt="PMS" />
+          <img className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-32 xl:h-32 2xl:w-32 2xl:h-32 3xl:w-56 3xl:h-56 mb-8 md:mb-6" src={PMS} alt="PMS" />
         </div>
         <div className="col-span-2 sm:col-span-4 md:col-span-1 flex justify-center items-center transform hover:scale-110 transition duration-300 ease-in-out">
-          <img className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-32 2xl:w-32 3xl:w-56 mb-8 md:mb-6" src="src/assets/img/HRMS.png" alt="HRMS" />
+          <img className="w-24 h-24 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 xl:w-32 2xl:w-32 3xl:w-56 mb-8 md:mb-6" src={HRMS} alt="HRMS" />
         </div>
       </div>
 

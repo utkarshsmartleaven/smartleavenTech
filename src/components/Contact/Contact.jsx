@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import emailjs from 'emailjs-com';
+import FRAME from "/src/assets/img/Frame.png"
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -109,7 +110,7 @@ const Contact = () => {
         {/* Illustration Section */}
         <div className="hidden md:block w-full md:w-1/2">
           <img
-            src="src/assets/img/Frame.png" // Replace this URL with your actual image source
+            src={FRAME} // Replace this URL with your actual image source
             alt="Illustration"
             className="max-w-full h-auto"
           />
