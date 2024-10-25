@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="w-full min-h-max relative bg-footer-gradient flex flex-col justify-center items-center">
       {/* Connect with us Section */}
       <div className="w-full flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-20 lg:gap-80 mt-8 sm:mt-16 px-4 mr-0">
-        
+
         {/* Logo */}
         <img
           className="w-24 h-24 md:w-36 md:h-36 object-cover"
@@ -22,7 +22,7 @@ const Footer = () => {
             Connect with us
           </div>
           <div className="mt-2 text-[#00182c] text-sm md:text-base font-normal font-['Roboto']">
-            Our team of experts is on hand to answer 
+            Our team of experts is on hand to answer
             <br className="block sm:hidden" /> {/* Visible on mobile, hidden on larger screens */}
             your questions.
           </div>
@@ -39,7 +39,7 @@ const Footer = () => {
 
       {/* Follow Us Section */}
       <div className="w-full flex flex-col sm:flex-row justify-center items-center gap-10 sm:gap-20 lg:gap-40 mt-8 sm:mt-16 px-4">
-        
+
         {/* Logo */}
         <img
           className="w-1/2 h-1/2 md:w-1/5 md:h-1/5 object-cover"
@@ -53,12 +53,18 @@ const Footer = () => {
             Follow Us
           </div>
           <div className="mt-2 mb-2 text-[#00182c] text-sm md:text-base font-normal font-['Roboto']">
-            Connect with us on social Platforms 
+            Connect with us on social Platforms
             <br className="block sm:hidden" /> {/* Visible on mobile, hidden on larger screens */}
             for upcoming Happenings
           </div>
           <div className="mb-2 ml-24 md:ml-0 text-[#00182c] text-lg md:text-xl font-medium font-['Roboto']">
-            <FaLinkedin size={35} />
+            <a
+              href="https://www.linkedin.com/company/smartleaventechnologies/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={35} />
+            </a>
           </div>
         </div>
       </div>
