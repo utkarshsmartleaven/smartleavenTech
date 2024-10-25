@@ -1,0 +1,54 @@
+
+# SLTP Website - React Project
+
+This is the landing page project built using React. 
+
+## Prerequisites
+
+Before starting, ensure the following are installed on your system:
+
+- **Node.js** (version >= 20.17.0) – [Download Node.js](https://nodejs.org/en/download/)
+- **npm** (comes with Node.js)
+
+## Setup and Run the Project
+
+### 1. Install Node.js
+
+If Node.js is not installed on your system, download and install it from the [official website](https://nodejs.org/en/download/). This will also install npm (Node Package Manager) by default.
+
+To verify the installation, run the following commands:
+```
+node -v
+npm -v
+```
+
+You should see the versions of Node.js and npm listed.
+
+### 2. Navigate to the Project Directory
+
+After downloading or cloning the project files, open a terminal (or command prompt) and navigate to the project folder:
+
+```
+cd path-to-your-project-directory/SLTP_website
+```
+
+### 3. Install Project Dependencies
+
+Once inside the project directory, install the required dependencies by running:
+
+```
+npm install
+```
+
+This will install all necessary packages listed in the `package.json` file.
+
+### 4. Start the Development Server
+
+After the installation is complete, start the development server:
+
+```
+npm run dev
+```
+
+
+Now, you should be able to set up, run your React project!

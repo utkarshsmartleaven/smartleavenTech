@@ -1,0 +1,18 @@
+Google Analytics:
+
+- Enter GA ID in the <script> tag of your index.html file. Replace 'Enter you here GA ID' with your actual GA ID.
+
+Cookie Consent:
+
+- Initialize Google Analytics with the GA ID in the CookieConsentBanner.jsx component. Replace 'Enter here you GA ID' with your actual GA ID.
+
+EmailJS:
+
+- In the Contact form component, replace 'here you serviceID' with your EmailJS Service ID.
+- Replace 'template ID' with your EmailJS Template ID.
+- Replace 'userID' with your EmailJS User ID.
+
+
+
+Create Ac: Google Analytics
+	   EmailJs
